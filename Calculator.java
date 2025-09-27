@@ -21,15 +21,15 @@ class Calculator {
     }
 
     public static void main(String[] args) {
-        System.out.println("---- Static Method and Field Access Demo ----");
-        Calculator_1.printStaticMethod();
-        System.out.println("Static Field Accessed: " + Calculator_1.operationType);
+        System.out.println("Static Method and Field Access Demo");
+        Calculator.printStaticMethod();
+        System.out.println("Static Field Accessed: " + Calculator.operationType);
 
-        System.out.println("\n---- Method Overloading Demo ----");
+        System.out.println("\nMethod Overloading Demo");
 
-        Calculator_1 calc = new Calculator_1();
+        Calculator calc = new Calculator();
 
-        System.out.println("Sum of 10 and 20 (int): " + calc.add(10, 20));
+        System.out.println("Sum of 10 and 20 (int): " + calc.add(10,20));
         System.out.println("Sum of 12.5 and 20.5 (double): " + calc.add(12.5, 20.5));
         System.out.println("Sum of 10, 20 and 30 (int): " + calc.add(10, 20, 30));
     }
