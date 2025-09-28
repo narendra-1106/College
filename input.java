@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class input {
     public static void main(String[]args) {
@@ -12,8 +12,8 @@ public class input {
        //int number= sc.nextInt();
        //System.out.println(number);
 
-        float price=sc.nextFloat();
-        System.out.println(price);
+        //float price=sc.nextFloat();
+        //System.out.println(price);
 
    
         
